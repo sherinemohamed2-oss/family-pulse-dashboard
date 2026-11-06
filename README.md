@@ -64,10 +64,3 @@ Identifies non-working mothers heading or residing in households:
 * **Country Slicer:** Isolate metrics for `Syria`, `Yemen`, `Iraq`, or `Libya`[cite: 1, 2].
 * **Breadwinner Slicer:** Filter families by primary income earner profiles[cite: 1, 2].
 
----
-
-## 📐 Data Modeling & DAX Formulas
-
-### Total Families Measure
-```dax
-Total Families = DISTINCTCOUNT( 'Families'[FamilyID] )
